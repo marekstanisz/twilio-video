@@ -25,7 +25,7 @@ class TwilioVideo::CreateRoom
     @room = client.video.rooms.create(
       enable_turn: true,
       type: 'peer-to-peer',
-      unique_name: 'DailyStandup'
+      unique_name: 'andrzej'
     )
   end
 end
