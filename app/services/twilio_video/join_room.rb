@@ -25,7 +25,7 @@ class TwilioVideo::JoinRoom
 
   def grant_access
     @grant = Twilio::JWT::AccessToken::VideoGrant.new
-    grant.room = 'cool room'
+    grant.room = 'DailyStandup'
     token.add_grant grant
   end
 
